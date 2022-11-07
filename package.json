@@ -1,0 +1,10 @@
+{
+  "name": "formhelper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "formHelper.js",
+  "scripts": {
+    "test": "node test.mjs"
+  },
+  "author": "Zach Lankton"
+}
