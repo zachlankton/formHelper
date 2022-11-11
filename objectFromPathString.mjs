@@ -4,7 +4,7 @@ function getObjVal(obj, path) {
 
 function setObjVal(obj, path, val) {
     const { objAtPath, lastKey } = createObjectFromPath(obj, path);
-    return val ? (objAtPath[lastKey] = val) : objAtPath[lastKey];
+    return val !== undefined ? (objAtPath[lastKey] = val) : objAtPath[lastKey];
 }
 
 function createObjectFromPath(obj, path) {
